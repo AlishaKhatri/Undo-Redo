@@ -1,4 +1,3 @@
-# Implement your Node class here
 class Node:
     """
     Represents one node in a linked data structure.
