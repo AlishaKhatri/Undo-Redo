@@ -1,8 +1,5 @@
-# Import the Node class you created in node.py
+
 from node import Node
-
-
-# Implement your Queue class here
 class Queue:
     def __init__(self):
         # The queue starts empty
@@ -62,7 +59,6 @@ class Queue:
 
 
 def run_help_desk():
-    # Create an instance of the Queue class
     queue = Queue()
 
     while True:
