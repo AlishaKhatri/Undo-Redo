@@ -1,8 +1,5 @@
-# Import the Node class you created in node.py
+
 from node import Node
-
-
-# Implement your Stack class here
 class Stack:
     def __init__(self):
         # The top of the stack starts empty
@@ -54,7 +51,6 @@ class Stack:
 
 
 def run_undo_redo():
-    # Create instances of the Stack class for undo and redo
     undo_stack = Stack()
     redo_stack = Stack()
 
